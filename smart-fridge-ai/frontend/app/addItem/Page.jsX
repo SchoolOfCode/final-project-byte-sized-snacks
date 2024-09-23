@@ -11,5 +11,33 @@ const FoodItemForm = ({ addFoodItem }) => {
         setName('');
         setExpiryDate('');
       }
-    }}
+    }
   
+  
+    return (
+      <form onSubmit = {handleSubmit}>
+        <div>
+          <lable>Food Item:</lable>
+          <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+          />
+        </div>
+        <div>
+          <label>Expiry Date:</label>
+          <input
+          type="date"
+          value={expiryDate}
+          onChange={(e) => setExpiryDate(e.target.value)}
+          required
+          />
+        </div>
+        <button type="submit">Add Item</button>
+
+      </form>
+      )
+    }
+
+    export default FoodItemForm;
