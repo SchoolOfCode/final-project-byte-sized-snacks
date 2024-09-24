@@ -1,7 +1,8 @@
+import { Poppins } from "next/font/google";
 import React from 'react'
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from './src/components/header/Header';
+import Header from './src/components/Header/Header';
 import Footer from './src/components/footer/Footer';
 
 const geistSans = localFont({

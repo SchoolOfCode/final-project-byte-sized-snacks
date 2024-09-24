@@ -1,10 +1,16 @@
+"use client";
+
 import React from 'react'
+import styles from './Header.module.css';
+import Image from "next/image";
+import Link from "next/link";
+
 
 
 const Header = () => {
     return (
-        <header style={headerStyle}>
-            <h1>SmartFridge.ai</h1>
+        <header className = {styles.headerStyle}>
+            <h1 className = {styles.title}>Pantry Pal</h1>
         </header>
     )
 }
