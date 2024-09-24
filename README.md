@@ -42,6 +42,8 @@ To deploy this project run
 npm run deploy
 ```
 
+- Link to deployed site : 
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -49,3 +51,14 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `ANOTHER_API_KEY`
+
+
+## Supporting Documentation
+
+- Figma Figjam
+
+- Team Manifesto
+
+- Team Manifesto Gamma Presentation
+
+  
