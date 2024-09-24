@@ -1,12 +1,13 @@
-import Main from "next/image";
+import Main from "../src/components/Main";
 import React, { useState } from 'react';
-import Layout from './Layout';
+import "./page.module.css";
 
 
-
-
-return (
+export default function Home() {
+  return (
     <div>
-    
+      <p> This is the HOMEPAGE </p>
+      <Main/>
     </div>
   );
+}
